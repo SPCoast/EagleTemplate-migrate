@@ -2,17 +2,16 @@
 ## License: CERN Open Hardware Licence v1.2
 ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 
-COPY THE DESCRIPTION FILE CONTENTS HERE
+Replace this line and following with the contents of the doc.md file
 
-First line: A short description of the project, used as a subtitle ot tagline
+### How to use this template:
 
-Remaining lines: a verbose changelog of what makes this "git version" different from the last.
-Use this space (in Markdown format) to describe the context and details of the changes.
-This section should be 5 to 20 lines of interesting detail; each version tab in the project will 
-display this text to help the reader understand why this version is differnet...
-
-The published project on the SPCoast.github.io website will
-include the relevant git commit messages as a terse, high level
-changelog, so don't replicate those messages here.
-
-
+  1. Create a repo using this template, 
+  2. Copy over your existing .sch and .brd files
+    * rename them if needed to match the repo name you chose...
+  3. Edit the other text files to describe this project
+  4. git add .
+  5. git commit -m "add to git"
+  6. git tag -a 1.0 -m 1.0
+  7. git push origin 1.0
+  
